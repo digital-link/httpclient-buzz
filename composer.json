@@ -1,5 +1,5 @@
 {
-    "name": "payment/httpclient-buzz",
+    "name": "digital-link/httpclient-buzz",
     "type": "library",
     "description": "http client bridge for buzz",
     "keywords": ["httpclient", "buzz"],
@@ -12,11 +12,8 @@
     ],
     "require": {
         "php": ">=5.3.3",
-        "payment/httpclient": "1.0.*",
+        "digital-link/httpclient": "1.0.*",
         "kriswallsmith/buzz": "~0.9"
-    },
-    "provide": {
-        "payment/httpclient-implementation": "self.version"
     },
     "autoload": {
         "psr-0": { "Payment\\HttpClient": "" }
